@@ -39,6 +39,7 @@ const Index: NextPage = () => {
               onChange={(date) => setDate(date)}
               onAccept={(date) => onDatePicked(date)}
               renderInput={(params) => <TextField {...params} />}
+              minDate={dayjs('12/14/2022')}
             />
           </LocalizationProvider>
         ) : (
