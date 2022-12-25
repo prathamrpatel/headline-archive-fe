@@ -1,6 +1,6 @@
 ## App link
 
-https://headline-archive-fe.herokuapp.com/
+Visit the site here --> https://headline-archive-fe.herokuapp.com/
 
 ## Getting Started
 
