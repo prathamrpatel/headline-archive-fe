@@ -5,7 +5,7 @@ import { Calendar } from 'react-calendar';
 import dayjs, { Dayjs } from 'dayjs';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider, DatePicker } from '@mui/x-date-pickers';
-import { Box, TextField } from '@mui/material';
+import { Box, TextField, Typography } from '@mui/material';
 import '@fontsource/roboto/500.css';
 
 const Index: NextPage = () => {
@@ -30,6 +30,12 @@ const Index: NextPage = () => {
       justifyContent="center"
       alignItems="center"
     >
+      <Typography variant="h6">
+        Every day at 8 AM, screenshots of CNN and FOX headlines will be taken.
+      </Typography>
+      <Typography variant="h6">
+        Select a day below to see what the news looked like on that day.
+      </Typography>
       <Box mt="25px">
         {width! <= 815 ? (
           <LocalizationProvider dateAdapter={AdapterDayjs}>
