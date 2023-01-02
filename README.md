@@ -2,6 +2,10 @@
 
 Visit the site here --> https://headline-archive-fe.herokuapp.com/
 
+##
+
+View the code for the cloud function that makes this app run here --> https://github.com/prathamrpatel/headline-archive-cloud-function
+
 ## Getting Started
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
